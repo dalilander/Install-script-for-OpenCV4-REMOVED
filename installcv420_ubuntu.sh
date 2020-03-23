@@ -84,5 +84,11 @@ cd ~/opencv/samples/cpp
 
 g++ opencv_version.cpp  $(pkg-config --cflags --libs opencv4) -o showCV_version
 
+#RUN WITH
+
+./showCV_version
+
+#DONE-BYE
+
 
 
