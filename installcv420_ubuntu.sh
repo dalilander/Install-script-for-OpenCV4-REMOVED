@@ -76,7 +76,7 @@ sudo ldconfig
 
 ls -l /usr/local/lib/pkgconfig
 
-read -p "Check point, did cmake/make add opencv4.pc in the above forlder? Should have, press enter to continue."
+read -p "Check point, did cmake/make add opencv4.pc in the above folder? Should have, press enter to continue."
 
 # 4. TESTING WITH AN EXAMPLE
 
@@ -84,11 +84,11 @@ cd ~/opencv/samples/cpp
 
 g++ opencv_version.cpp  $(pkg-config --cflags --libs opencv4) -o showCV_version
 
-#RUN WITH
+# RUN WITH
 
 ./showCV_version
 
-#DONE-BYE
+# DONE-BYE
 
 
 
