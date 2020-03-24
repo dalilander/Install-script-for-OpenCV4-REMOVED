@@ -8,3 +8,5 @@ The script automates the installation of OpenCV4 on Ubuntu.
 Hope it works for you,
 
 Cheers
+
+PS. Check that the path to the .../pkgconfig containing opencv4.pc really is in the environment variable LD_LIBRARY_PATH.
