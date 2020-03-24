@@ -2,8 +2,6 @@
 # INSTALL OPENCV4.2.0 ON UBUNTU 18.04 OR DEBIAN #
 #################################################
 
-# Kudos and thanks to those unknown ppl who wrote parts 1,2 and 3
-
 # There are some checking points where the script halts, just comment them out if you want to
 # run through the whole thing without any interruptions
 
@@ -72,6 +70,8 @@ cmake -D OPENCV_GENERATE_PKGCONFIG=ON -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTA
 
 make -j4
 sudo make install
+
+# THIS UPDATES the LD_LIBRARY_PATH. AFTER FINISHING CHECK THAT THE PATH BELOW IS THERE.
 sudo ldconfig
 
 ls -l /usr/local/lib/pkgconfig
