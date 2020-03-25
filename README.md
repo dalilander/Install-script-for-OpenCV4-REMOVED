@@ -17,9 +17,10 @@ PS:
 
    sudo apt-get install protobuf-compiler libprotobuf-dev
    
-   This line could/should be added to the install script.
+   This line could/should be added into the install script.
    
-  
+
+
 
 I AM READING AN (IMO CRAPPY) OPENCV4 BOOK FROM PACKT AND WHILE DOING THAT I FIND STUFF THAT IS NOT WORKING OR MISSING FROM THE
 UBUNTU ENVIRONMENT. I WILL ADD NOTES ABOUT THOSE HERE.
