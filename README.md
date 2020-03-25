@@ -9,10 +9,15 @@ Hope it works for you,
 
 Cheers
 
-PS. Check that the path to the .../pkgconfig containing opencv4.pc really is in the environment variable LD_LIBRARY_PATH.
+PS: 
 
-PPS. If with book examples you encouter errors regarding missing -lprotobuf for TARGET_LINK_LIBRARIES 
+1. Check that the path to the .../pkgconfig containing opencv4.pc really is in the environment variable LD_LIBRARY_PATH.
 
-do install these:
+2. If with book examples you encouter errors regarding missing -lprotobuf for TARGET_LINK_LIBRARIES 
 
-sudo apt-get install protobuf-compiler libprotobuf-dev
+   do install these: sudo apt-get install protobuf-compiler libprotobuf-dev
+   
+   
+
+I AM READING AN (IMO CRAPPY) OPENCV4 BOOK FROM PACKT AND WHILE DOING THAT I FIND STUFF THAT IS NOT WORKING OR MISSING FROM THE
+UBUNTU ENVIRONMENT. I WILL ADD NOTES ABOUT THOSE HERE.
