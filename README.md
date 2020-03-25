@@ -13,7 +13,7 @@ PS:
 
 1. Check that the path to the .../pkgconfig containing opencv4.pc really is in the environment variable LD_LIBRARY_PATH.
 
-2. If you encouter errors regarding missing -lprotobuf for TARGET_LINK_LIBRARIES do install these: 
+2. If you encouter errors regarding missing -lprotobuf for say TARGET_LINK_LIBRARIES in CMakelist.txt do install these: 
 
    sudo apt-get install protobuf-compiler libprotobuf-dev
    
