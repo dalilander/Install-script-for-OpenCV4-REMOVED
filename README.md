@@ -22,7 +22,12 @@ PS:
 3. For missing OpenGL libs -lglut -lGL -lGLU installing these fixed it for me:
 
    sudo apt-get install freeglut3 freeglut3-dev
+   
+4. Some opencv4 examples whined about missing canberra etc. Installing these fixed that (both 32 and 64 bit versions):
+ 
+   sudo apt-get install libcanberra-gtk-module
 
+   sudo apt-get install libcanberra-gtk-module:i386
    
 
 
